@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fancy Countdown</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-fancyCountdown-1.0.0-min.js"></script>
+<script>
+$(function() {
+	$("#fancyCountdown").fancyCountdown({
+		'year':2013,
+		'month':05,
+		'day':13,
+		'hour':13,
+		'minute':55,
+		'second':00,
+		'timeReachedMessage':'Hoorraay!!',
+		'timeStamps':['Days', 'Hours', 'Minutes', 'Seconds']
+	});
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18245222-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="fancyCountdown"></div>
+<br/>
+<table border="1">
+    <tr>
+    	<td>
+        	Share
+        </td>
+        <td>
+        	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="sarpdoruk">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/pages/JQuery-Fancy-Countdown/159957704063515" width="350" show_faces="false" stream="false" header="false"></fb:like-box>
+        </td>        
+    </tr>    
+	<tr>    	
+    	<td>
+        	Download
+        </td>
+        <td>
+        	<a href="http://www.sarpdoruktahmaz.com/projects/fancy-countdown/fancy-countdown.rar">Click here to download!</a>
+        </td>
+    </tr>
+    <tr>
+        <td>How to use?</td>
+        <td>
+            Import both jQuery and fancyCountdown .js files then css file, create a div with an id "anyID" then paste the following code between script tags;<br /><br />
+            $(function() {<br />
+            $("#anyID").fancyCountdown({<br />
+            'year':2011,<br />
+            'month':05,<br />
+            'day':13,<br />
+            'hour':13,<br />
+            'minute':55,<br />
+            'second':00,<br />
+            'timeReachedMessage':'Hoorraay!!',<br />
+            'timeStamps':['Days', 'Hours', 'Minutes', 'Seconds']<br />
+            });<br />
+            });
+		</td>
+    </tr>
+    <tr>
+        <td>Customization?</td>
+        <td>
+            All parameters can be customized;<br />
+            First six parameters are
+            <ul>
+            	<li>"year" -> target year</li>
+                <li>"month" -> target month of that year</li>
+                <li>"day" -> target day of that month</li>
+                <li>"hour" -> target hour of that day</li>
+                <li>"minute" -> target minute of that hour</li>
+                <li>"second" -> target second of that minute</li>
+            </ul>
+            Next two parameters are
+            <ul>
+            	<li>"timeReachedMessage" -> this is the message appears when the timer ends</li>
+                <li>"timeStamps" -> this is an array to display timestamps in your own language</li>
+            </ul>
+		</td>
+    </tr>
+</table>
+</body>
+</html>

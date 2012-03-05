@@ -1,0 +1,86 @@
+/**
+ * jQuery "Fancy Countdown" Plugin
+ * 
+ * @name jquery-fancyCountdown-1.0.0.js
+ * @author Sarpdoruk TAHMAZ - http://www.sarpdoruktahmaz.com
+ * @version 1.0.0
+ * @date April 13, 2011
+ * @category jQuery Plugin Widget
+ * @copyright (c) 2011 Sarpdoruk TAHMAZ (sarpdoruktahmaz.com)
+ * @license GNU - GENERAL PUBLIC LICENSE - https://github.com/jquery/jquery/blob/master/GPL-LICENSE.txt
+ * @info Visit http://www.sarpdoruktahmaz.com/projects/fancy-countdown for more info
+ * @Special thanks to Onat ÇELMEN http://www.onatcelmen.com for the plugin idea
+**/
+ 
+BODY {
+	background-color:#EEE;
+}
+ 
+#fancyCountdown {
+	position:relative;
+}
+
+#d1, #d2, #d3, #h1, #h2, #m1, #m2, #s1, #s2 {
+	position:relative;
+	margin-right:10px;
+}
+
+#days, #hours, #minutes {
+	position:relative;
+	margin-right:30px;
+}
+
+#fancy-countdown {
+	text-align:center;
+	font-family:"Tahoma";
+	font-weight:bold;
+	font-variant:small-caps;
+	font-size:24px;	
+}
+
+#d-tx {
+	position:relative;
+	font-family:"Tahoma";
+	font-size:36px;
+	font-variant:small-caps;	
+}
+
+#hours {
+	position:relative;
+}
+
+#h-tx {
+	position:relative;
+	font-family:"Tahoma";
+	font-size:36px;
+	font-variant:small-caps;	
+}
+
+#minutes {
+	position:relative;
+}
+
+#m-tx {
+	position:relative;
+	font-family:"Tahoma";
+	font-size:36px;
+	font-variant:small-caps;	
+}
+
+#seconds {
+	position:relative;
+}
+
+#s-tx {
+	position:relative;
+	font-family:"Tahoma";
+	font-size:36px;
+	font-variant:small-caps;	
+}
+
+#timeReached {
+	color:#6C0;
+	background-color:#333;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:60px;	
+}
